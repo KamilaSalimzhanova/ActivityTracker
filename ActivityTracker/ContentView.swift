@@ -1,21 +1,18 @@
-//
-//  ContentView.swift
-//  ActivityTracker
-//
-//  Created by kamila on 30.03.2025.
-//
-
 import SwiftUI
+import Charts
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+            }
+            .padding()
+            .navigationTitle("Activity Tracker")
         }
-        .padding()
     }
 }
 
