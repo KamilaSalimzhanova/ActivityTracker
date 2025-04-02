@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ActivityTrackerApp: App {
+    let dataStore = DataStore.shared
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataStore.getContext())
+                .environmentObject(ActivityStore(context: dataStore.getContext()))
         }
     }
 }

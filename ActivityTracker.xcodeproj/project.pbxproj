@@ -13,6 +13,7 @@
 		8E5205FC2D99A7C9007ECFDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5205FB2D99A7C9007ECFDE /* Preview Assets.xcassets */; };
 		8EC901552D9DA4220008D191 /* ActivityModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EC901532D9DA4220008D191 /* ActivityModel.xcdatamodeld */; };
 		8EC901582D9DA55E0008D191 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC901572D9DA55E0008D191 /* DataStore.swift */; };
+		8EC9015A2D9DA62E0008D191 /* ActivityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC901592D9DA62E0008D191 /* ActivityStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8E5205FB2D99A7C9007ECFDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EC901542D9DA4220008D191 /* ActivityModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActivityModel.xcdatamodel; sourceTree = "<group>"; };
 		8EC901572D9DA55E0008D191 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		8EC901592D9DA62E0008D191 /* ActivityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				8EC901532D9DA4220008D191 /* ActivityModel.xcdatamodeld */,
 				8EC901572D9DA55E0008D191 /* DataStore.swift */,
+				8EC901592D9DA62E0008D191 /* ActivityStore.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EC901552D9DA4220008D191 /* ActivityModel.xcdatamodeld in Sources */,
+				8EC9015A2D9DA62E0008D191 /* ActivityStore.swift in Sources */,
 				8EC901582D9DA55E0008D191 /* DataStore.swift in Sources */,
 				8E5205F72D99A7C8007ECFDE /* ContentView.swift in Sources */,
 				8E5205F52D99A7C8007ECFDE /* ActivityTrackerApp.swift in Sources */,
